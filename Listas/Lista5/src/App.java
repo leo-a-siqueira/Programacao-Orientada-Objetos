@@ -16,7 +16,7 @@ class App{
 
         System.out.println(produto.getMarca() + " " + produto.getNome() + " " + produto.getPreco());
         System.out.println(produto2.getMarca() + " " + produto2.getNome() + " " + produto2.getPreco());
-        System.out.println(produto3.getMarca() + " " + produto3.getNome() + " " + produto3.getPreco());    
+        System.out.println(produto3.getMarca() + " " + produto3.getNome() + " " + produto3.getPreco());    ,
       
     }
 }

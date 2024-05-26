@@ -3,7 +3,12 @@ package Loja;
 public class Produto {
     private String marca;
     private String nome;
-    private double preco;    
+    private double preco;   
+    
+    public static void ExibirProduto() {
+        System.out.println(getMarca + " " + getNome " " + getPreco);
+    }
+
 
     public void setMarca(String marca){
         this.marca = marca;
@@ -30,11 +35,7 @@ public class Produto {
         this.marca = marca;
         this.nome = nome;
         this.preco = preco;
-    }
-    
-    public static void ExibirProduto() {
-        System.out.println();
-    }
+    }    
 
 }
 
